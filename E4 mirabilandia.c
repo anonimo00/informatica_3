@@ -21,11 +21,11 @@ int main(){
           printf("inserisci altezza in centimetri:");
           scanf("%d",&alt); //altezza della persona
           printf("inserisci eta:");
-          scanf("%d",&eta); //età della persona
-                  if(alt>100){   //indica se il biglietto è per il bambino 
-                                  if(alt>140){ //indica se il biglietto è ridotto o intero
+          scanf("%d",&eta); //etÃ  della persona
+                  if(alt>100){   //indica se il biglietto Ã¨ per il bambino 
+                                  if(alt>140){ //indica se il biglietto Ã¨ ridotto o intero
                                               prezzo=34,90; //prezzo intero
-                                              if(eta>=60){ //indica se il biglietto è senior
+                                              if(eta>=60){ //indica se il biglietto Ã¨ senior
                                                           prezzo=25,00; //prezzo over 60
                                               }
                                               sup=1; //variabile per il supplemento prezzo intero
