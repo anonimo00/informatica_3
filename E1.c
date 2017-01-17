@@ -14,7 +14,7 @@ int main(){
 	scanf("%d",b);      //seconda variabile da scambiare
 	c=a;        //copio il valore di a su c
 	a=b;		//sposto ill valore di b su a
-	b=c;		//copio il valore di c(cioè a) su b
+	b=c;		//copio il valore di c(cioÃ¨ a) su b
 	printf("\nil valore di a e':%d",a); //mostro la variabile a sul monitor
 	printf("\nil valore di b e':%d",b); //mostro la variabile b sul monitor
 }
