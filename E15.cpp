@@ -15,7 +15,7 @@ int main(){
        system("cls");
     }while(k>100);                  //verifica se la variabile rispetta la condizione
     for(i=0;i<k;i++){               //ciclo per caricare i numeri nell'array
-                     printf("inserisci elemento n° %d : ",i);
+                     printf("inserisci elemento nÂ° %d : ",i);
                      scanf("%d",&v[i]);
                      system("cls");
     }
