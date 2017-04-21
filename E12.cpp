@@ -1,8 +1,8 @@
 /*******************
 alunno= Thomas Beato
 classe= 3 IN A
-Data= 
-programma= 
+Data= 18/04/2017
+programma= E12
 versione= 1.oV
 *******************/
 #include<stdio.h>
