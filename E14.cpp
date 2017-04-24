@@ -9,18 +9,10 @@ versione= 1.oV
 #include<stdlib.h>
 #include<string.h>
 int main(){
-    int v[11];	//ARRAY PER LA RICERCA
+    int v[]={1,2,3,4,5,6,7,8,9,10,0};	//ARRAY PER LA RICERCA
     int n;	//NUMERO DA CERCARE NELL ARRAY
     int i; //INDICE
-    
-    //PRENDO I NUMERI PER L'ARRAY
-    for(i=0;i<10;i++){
-    	do{
-    		printf("inserisci il %d numero :",i);
-    		scanf("%d",& v[i]);
-		}while((v[i]<=0) || (v[i]>1000));
-	}
-	
+   
 	//PRENDO IL NUMERO DA CERCARE E INSERISCO SULL'ARRAY LA SENTINELLA
 	printf("inserire il numero da cercare: ");
 	scanf("%d",& n);
